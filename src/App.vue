@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <FbHeaderSlider :slides="slides" sliderHeight="200px"></FbHeaderSlider>
     <div class="content">
-      <h1>Webcomponents</h1>
-      <FbInput label="Hallo Welt"></FbInput>
+      <FbGallery
+        wpEndpoint="https://dev.kommpass-staging.ch/wp-json"
+      ></FbGallery>
     </div>
   </div>
 </template>
 
 <script>
 import FbInput from "./components/FbInput";
+import FbGallery from "./components/FbGallery";
 
 import FbTab from "./components/FbTab";
 import FbTabs from "./components/FbTabs";
@@ -22,7 +23,8 @@ export default {
     FbInput,
     FbTab,
     FbTabs,
-    FbHeaderSlider
+    FbHeaderSlider,
+    FbGallery
   },
   data() {
     return {
