@@ -32,7 +32,7 @@
 import WPAPI from "wpapi";
 
 export default {
-  name: "FbGallery",
+  name: "fb-gallery",
   data() {
     return {
       wp: null,

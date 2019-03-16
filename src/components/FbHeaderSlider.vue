@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "FbHeaderSlider",
+  name: "fb-header-slider",
   props: {
     slides: Array,
     sliderHeight: {

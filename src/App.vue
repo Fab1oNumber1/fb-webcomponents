@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="content">
-      <FbGallery
+      <fb-gallery
         wpEndpoint="https://dev.kommpass-staging.ch/wp-json"
-      ></FbGallery>
+      ></fb-gallery>
     </div>
   </div>
 </template>
@@ -18,14 +18,7 @@ import FbHeaderSlider from "./components/FbHeaderSlider";
 import ImagePlaceholderUnsplash from "image-placeholder-unsplash";
 
 export default {
-  name: "App",
-  components: {
-    FbInput,
-    FbTab,
-    FbTabs,
-    FbHeaderSlider,
-    FbGallery
-  },
+  name: "app",
   data() {
     return {
       slides: [

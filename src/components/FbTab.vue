@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: "FbTab"
+  name: "fb-tab"
 };
 </script>

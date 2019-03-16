@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "FbInput",
+  name: "fb-input",
   data() {
     return {
       value: "",

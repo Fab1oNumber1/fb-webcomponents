@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "FbTabs",
+  name: "fb-tabs",
   props: {
     default_tab: Number | String
   },
